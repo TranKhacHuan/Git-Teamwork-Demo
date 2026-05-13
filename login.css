@@ -1,0 +1,94 @@
+/* Reset css cơ bản */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Căn giữa form ra giữa màn hình */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5; /* Nền xám nhạt */
+}
+
+/* Hộp đăng nhập (Card) */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 360px;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Các ô nhập liệu */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Hiệu ứng khi click vào ô nhập */
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+/* Nút bấm đăng nhập */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Màu xanh dương mặc định */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Chữ bổ sung ở dưới (Quên MK, Đăng ký) */
+.extra-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.extra-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.extra-text a:hover {
+    text-decoration: underline;
+}
